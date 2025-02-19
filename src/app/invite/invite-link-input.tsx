@@ -6,9 +6,9 @@ import { Copy, Link } from 'lucide-react';
 interface InviteLinkInputProps {
   inviteLink: string;
 }
-export function InviteLinkInput({inviteLink}: InviteLinkInputProps) {
+export function InviteLinkInput({ inviteLink }: InviteLinkInputProps) {
   function copyInviteLink() {
-    navigator.clipboard.writeText(inviteLink)
+    navigator.clipboard.writeText(inviteLink);
   }
 
   return (
